@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html, body, #__next {
+        @apply h-full;
+    }
+
+    body {
+        @apply bg-gray-50 text-gray-900 font-inter;
+    }
+
+    #__next {
+        @apply isolate;
+    }
+}
